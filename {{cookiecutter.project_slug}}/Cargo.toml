@@ -1,0 +1,15 @@
+[package]
+name = "{{cookiecutter.project_slug}}"
+description = "{{cookiecutter.project_short_description}}"
+publish = false
+license = "MIT"
+version = "{{cookiecutter.version}}"
+authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+
+[[bin]]
+name = "{{cookiecutter.project_slug}}"
+path = "src/main.rs"

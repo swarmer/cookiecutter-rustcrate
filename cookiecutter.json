@@ -1,0 +1,9 @@
+{
+  "full_name": "Anton Barkovsky",
+  "email": "anton@example.com",
+  "github_username": "swarmer",
+  "project_name": "Rust Boilerplate",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Rust Boilerplate contains all the boilerplate you need to create a Rust package.",
+  "version": "0.1.0"
+}
